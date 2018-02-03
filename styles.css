@@ -11,6 +11,12 @@ body {
    font-family: 'Poppins', sans-serif;
 }
 
+.container {
+   width: 90%;
+   max-width: 1000px;
+   margin: 5% auto;
+}
+
 span {
    font-weight: 400;
 }
@@ -20,12 +26,6 @@ h1 {
 
    font-size: 1rem;
    font-weight: 200;
-}
-
-.container {
-   width: 90%;
-   max-width: 1000px;
-   margin: 5% auto;
 }
 
 img {
