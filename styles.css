@@ -70,18 +70,28 @@ img:hover {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
    .container {
       width: 80%;
+      margin: 10% auto;
    }
+
    img {
       display: block;
 
-      width: 90%;
+      width: 100%;
+      max-width: 450px;
       height: auto;
-      margin: 5% auto 5% auto;
+      margin: 5% auto;
    }
+
    img:nth-child(odd) {
       margin-right: auto;
+   }
+
+   h1 {
+      width: 100%;
+      max-width: 450px;
+      margin: 30px auto;
    }
 }
