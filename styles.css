@@ -73,8 +73,10 @@ img:hover {
    display: flex;
    align-items: flex-end;
    justify-content: center;
+
    height: 140px;
    margin: 0 auto;
+
    font-size: 2rem;
 }
 
